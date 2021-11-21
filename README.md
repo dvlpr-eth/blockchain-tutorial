@@ -11,3 +11,7 @@ python3 -m pip install matplotlib
 
 <!-- Deactivate the env -->
 deactivate
+
+<!-- for installing brownie  -->
+pipx install 'cytoolz[cython]'  
+pipx install eth-brownie

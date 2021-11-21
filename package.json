@@ -1,0 +1,24 @@
+{
+  "name": "blockchain-tutorial",
+  "version": "1.0.0",
+  "description": "<!-- Install and activate env --> python3 -m venv .venv",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "deploy:d": "brownie run scripts/deploy.py",
+    "deploy:r": "brownie run scripts/deploy.py --network rinkeby",
+    "read:r": "brownie run scripts/read_value.py --network rinkeby"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvlpr-eth/blockchain-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvlpr-eth/blockchain-tutorial/issues"
+  },
+  "homepage": "https://github.com/dvlpr-eth/blockchain-tutorial#readme"
+}
